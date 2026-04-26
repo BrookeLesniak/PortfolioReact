@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PortfolioReact/static/css/main.66263d8c.css",
+    "main.js": "/PortfolioReact/static/js/main.e3c0be04.js",
+    "static/js/453.635f5f07.chunk.js": "/PortfolioReact/static/js/453.635f5f07.chunk.js",
+    "static/media/AcrylicOnCanvas.jpeg": "/PortfolioReact/static/media/AcrylicOnCanvas.45eaca0fc80a087abf9d.jpeg",
+    "static/media/brookeHomePage.jpeg": "/PortfolioReact/static/media/brookeHomePage.cef2b661878c21e13cd5.jpeg",
+    "static/media/mixedMedia.jpeg": "/PortfolioReact/static/media/mixedMedia.bb30533a9571a0950619.jpeg",
+    "static/media/brookeAbout.jpeg": "/PortfolioReact/static/media/brookeAbout.8c38e957b9213453db58.jpeg",
+    "static/media/cutPaper.jpeg": "/PortfolioReact/static/media/cutPaper.26b141cf9996d79a41b2.jpeg",
+    "static/media/inkSeek.png": "/PortfolioReact/static/media/inkSeek.7000ca198d405eefeee9.png",
+    "static/media/modesaic.png": "/PortfolioReact/static/media/modesaic.fbf2b8962124f569f8e5.png",
+    "index.html": "/PortfolioReact/index.html",
+    "main.66263d8c.css.map": "/PortfolioReact/static/css/main.66263d8c.css.map",
+    "main.e3c0be04.js.map": "/PortfolioReact/static/js/main.e3c0be04.js.map",
+    "453.635f5f07.chunk.js.map": "/PortfolioReact/static/js/453.635f5f07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66263d8c.css",
+    "static/js/main.e3c0be04.js"
+  ]
+}
