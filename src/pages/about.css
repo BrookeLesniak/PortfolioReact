@@ -1,0 +1,198 @@
+.about-page {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  width: min(100%, 1200px);
+  margin: 40px auto;
+}
+
+.about-copy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-text-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-text-side h1 {
+  margin: 0 0 28px;
+  padding: 0;
+  text-align: center;
+  color: #4F023B;
+}
+
+.about-text-circle {
+  width: min(100%, 420px);
+  aspect-ratio: 1 / 1;
+  max-width: 420px;
+  background: #FBF9EF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.12);
+}
+
+.about-text-circle p {
+  font-family: 'Graphik', sans-serif;
+  line-height: 1.8;
+  text-align: center;
+  margin: 0;
+}
+
+.about-image-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 520px;
+}
+
+.about-image-stack {
+  position: relative;
+  width: min(100%, 420px);
+  max-width: 420px;
+  min-height: 420px;
+}
+
+.about-photo {
+  width: 100%;
+  border-radius: 32px;
+  border: 10px solid #4F023B;
+  object-fit: cover;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.14);
+}
+
+.about-photo-primary {
+  position: relative;
+  z-index: 2;
+}
+
+.about-photo-secondary {
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  width: 72%;
+  z-index: 1;
+}
+
+.about-image-label {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #FBF9EF;
+  border-radius: 999px;
+  padding: 14px 28px;
+  font-family: 'BBH Bartle', sans-serif;
+  color: #4F023B;
+  z-index: 3;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 40px;
+  width: min(100%, 1000px);
+}
+
+.skills h1 {
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  color: #4F023B;
+}
+
+.skills-card {
+  width: 100%;
+  background: #FBF9EF;
+  border-radius: 32px;
+  padding: 32px 28px;
+}
+
+.skills ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  gap: 12px 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.skills ul li {
+  margin: 0;
+  font-family: 'Graphik', sans-serif;
+  background: #2BB6A8;
+  color: black;
+  padding: 14px 20px;
+  border-radius: 999px;
+}
+
+
+@media (max-width: 900px) {
+  .about-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-text-circle,
+  .about-image-stack {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-image-side {
+    min-height: 380px;
+  }
+
+  .about-photo-secondary {
+    top: 80px;
+    left: 20px;
+    width: 65%;
+  }
+
+  .skills ul {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-text-circle {
+    padding: 28px;
+  }
+
+  .about-image-stack {
+    min-height: 300px;
+  }
+
+  .about-photo-secondary {
+    top: 60px;
+    left: 12px;
+    width: 68%;
+  }
+
+  .about-image-label {
+    top: 44%;
+    padding: 12px 22px;
+  }
+
+  .skills ul {
+    grid-template-columns: 1fr;
+  }
+}

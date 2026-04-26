@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: #2BB6A8;
+  padding: 14px 28px;
+  border-radius: 999px;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.navbar-list li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'BBH Bartle', sans-serif;
+}
+
+.navbar-list li a:hover {
+  text-decoration: underline;
+}
